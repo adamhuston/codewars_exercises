@@ -18,9 +18,13 @@ grade = random.randint(0, 100)
 print(f"{grade} is the next grade")
 
 if grade >= 90:
-    print("passed")
+    print("A")
 elif grade >= 80:    
-    print("almost there")
+    print("B")
+elif grade >= 70:
+    print("C")
+elif grade >= 60:
+    print("D")
 else:    
     print("failed")
 
